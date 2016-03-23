@@ -98,7 +98,7 @@ public class MainActivity extends Activity {
             
             Log.d(TAG, "picturePath = "+ picturePath);
             
-            DsdLibCloudFile.dsdCfUpload(picturePath, "java_upload", new DsdCloudFileListener() {
+            DsdLibCloudFile.dsdCfUpload(picturePath, new DsdCloudFileListener() {
 					
 					@Override
 					public void onSuccess(String url) {
